@@ -32,7 +32,7 @@ dotsyncrc
 #gnupg
 #grc
 #input/editrc
-#input/inputrc
+input/inputrc
 #irssi
 #mpd/mpd.conf
 #mercurial/hgrc
@@ -44,7 +44,7 @@ dotsyncrc
 #ncmpcpp/config
 #ncmpcpp/error.log
 #postgresql/psqlrc
-#python/pythonrc
+python/pythonrc
 #python/pylintrc
 #rpm/rpmmacros
 #ruby/irbrc
@@ -63,8 +63,8 @@ dotsyncrc
 #task/taskrc
 #tmux/tmux.conf
 #tmux/tmuxinator
-#vim/dotvim:.vim
-#vim/vimrc
+vim/dotvim:.vim
+vim/vimrc
 #vim/gvimrc
 #wget/wgetrc
 #zsh/fasdrc

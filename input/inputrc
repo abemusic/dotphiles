@@ -12,6 +12,9 @@ $include /etc/inputrc
 # Set things up for python shell
 set editing-mode vi
 
+# Match parens
+set blink-matching-paren on
+
 # Adds punctuation as word delimiters
 set bind-tty-special-chars off
 
