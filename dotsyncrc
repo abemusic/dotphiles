@@ -24,8 +24,8 @@ dotsyncrc
 #ctags/ctags
 #cmus
 #curl/curlrc
-#git/gitconfig
-#git/gitignore
+git/gitconfig
+git/gitignore
 #git/gitattributes
 #git/tigrc
 #git/gitk
@@ -68,12 +68,12 @@ vim/vimrc
 #vim/gvimrc
 #wget/wgetrc
 #zsh/fasdrc
-#zsh/dotzsh:.zsh
-#zsh/zlogin
-#zsh/zlogout
-#zsh/zprofile
-#zsh/zshenv
-#zsh/zshrc
+zsh/dotzsh:.zsh
+zsh/zlogin
+zsh/zlogout
+zsh/zprofile
+zsh/zshenv
+zsh/zshrc
 [endfiles]
 
 # Hosts to sync
