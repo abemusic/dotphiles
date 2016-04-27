@@ -49,7 +49,7 @@ zstyle ':dotzsh:module:terminal' auto-title 'yes'
 
 ### Editor module
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':dotzsh:module:editor' keymap 'emacs'
+zstyle ':dotzsh:module:editor' keymap 'vi'
 # Set EDITOR to 'emacs' or 'vi'.
 zstyle ':dotzsh:module:editor' editor 'vi'
 # Auto convert .... to ../..
