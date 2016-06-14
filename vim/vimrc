@@ -7,6 +7,8 @@
 "   Ben O'Hara <bohara@gmail.com>
 "
 
+set t_Co=256
+
 " Call dotvim
 source ~/.vim/dotvim.vim
 
@@ -15,14 +17,18 @@ if has("user_commands")
   filetype off
   set rtp+=~/.vim/bundle/Vundle.vim/
   call vundle#rc()
-  "let g:vundles=['general', 'git', 'hg', 'programming', 'completion', 'ruby', 'python', 'misc']
+ 
+  " Override default colorscheme
+  let g:dotvim_colorscheme='torte'
+
+  " See ~/.vim/vundles.vim for various groups you can enable
   let g:vundles=['general', 'programming', 'completion', 'python', 'misc']
-  let g:neocomplcache_enable_at_startup = 1
+
   " Load 'vundles'
   source ~/.vim/vundles.vim
+
   " Add extra bundles here...
   " Bundle 'reponame'
+
+  let g:neocomplcache_enable_at_startup = 1
 endif
-
-" Customize to your needs...
-
